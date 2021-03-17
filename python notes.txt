@@ -1,0 +1,23 @@
+price = 10
+rating = 4.9
+name = 'Rxan'
+is_published = False
+print(name)
+
+
+Support
+email = input('What is your email?')
+name =  input('What is your name? ')
+response = '''   
+Thank You for Contacting Support,
+We will review your problem then email you back.
+Cheers,
+The Support Team
+'''
+print(name + response)
+
+
+Arithmetic in Python
+x = 10
+x = x + 3
+print(x)
