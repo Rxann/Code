@@ -1,5 +1,5 @@
-i = 1
-while i <= 10:
-    print("ur bad")
-    i = i + 0.5
-print("done lol ur bad (loop terminated)")
+import random
+names = ["Ryan","Caleb","Jennifer","Michael"]
+names_v2 = random.choice(names)
+print(names_v2)
+print("Name randomly picked")
