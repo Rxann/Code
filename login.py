@@ -1,13 +1,9 @@
-login_correct_user = "rxan"
-login_correct_pass = "8001"
-
-login_user = input("What is the access name: ")
-login_pass = input("What is the password: ")
-name = input("What is you name: ")
-
-if login_correct_pass and login_correct_pass == login_user and login_pass:
-        print(f"Welcome {name}")
-        print("Permission Granted")
-        print("Nothing has been stored for now")
-       
-        
+login_try = input("What is your specific login key? Enter here: ")
+keys = "Rxan"
+if keys == login_try:
+        print("Granted")
+        print("The information will be printed soon...")
+        print("error code 4506")
+        print("This is all the information for now")
+if login_try != keys:
+        print("Access denied. Please restart the program and try again")
