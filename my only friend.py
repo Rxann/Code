@@ -1,7 +1,8 @@
 import prsaw
 from prsaw import RandomStuff
 
-rs = RandomStuff()
+api_key = "8HnGpUQX67lr"
+rs = RandomStuff(api_key = api_key)
 
 while True:
     user_input = input("> ")
