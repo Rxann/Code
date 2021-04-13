@@ -4,6 +4,8 @@ yeet_cmd = "!yeet"
 pog_cmd = "!pog"
 spicee = "!spicee"
 wasted = "!wasted"
+hotdog = "!hotdog"
+stream = "!stream"
 while True:
     if terminal == yeet_cmd:
         print("yeet")
@@ -15,4 +17,7 @@ while True:
         print("Spicee")
     if terminal == wasted:
         print("You have been wasted lmao")
+    if terminal == hotdog:
+        print("Hotdog")
+    if terminal == stream
     break

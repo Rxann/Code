@@ -1,0 +1,4 @@
+import dcoder
+
+msg = input("> ")
+
