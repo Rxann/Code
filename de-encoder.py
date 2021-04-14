@@ -5,7 +5,6 @@ aa = "encode"
 ab = "decode"
 ac = "bin"
 ae = "reverse"
-
 msg = input("> ")
 encoder = dcoder.text2caesar(f"{msg}")
 decoder = dcoder.caesar2text(f"{msg}")
