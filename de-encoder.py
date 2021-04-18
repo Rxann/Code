@@ -1,10 +1,12 @@
 import dcoder
+
 print("Welcome!")
 option = input("Encode decode encode binary(bin) or reverse: ")
 aa = "encode"
 ab = "decode"
 ac = "bin"
 ae = "reverse"
+
 msg = input("> ")
 encoder = dcoder.text2caesar(f"{msg}")
 decoder = dcoder.caesar2text(f"{msg}")
